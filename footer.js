@@ -15,7 +15,10 @@
       '.end p{color:#9AA1A6;margin-top:12px;max-width:38ch}' +
       '.end .cta{display:inline-flex;align-items:center;gap:9px;margin-top:26px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;font-size:16px;padding:15px 24px;border-radius:4px;border:0;cursor:pointer}' +
       '.end__contacts{margin-top:26px;font-family:"IBM Plex Mono",monospace;font-size:13px;line-height:2;color:#9AA1A6}' +
-      '.end__contacts a{color:var(--paper-2);text-decoration:none;border-bottom:1px solid #3A3F45}';
+      '.end__contacts a{color:var(--paper-2);text-decoration:none;border-bottom:1px solid #3A3F45}' +
+      '.end__ref{margin-top:28px;padding-top:20px;border-top:1px solid #2A2E33;max-width:46ch;font-size:13.5px;line-height:1.6;color:#7C838A}' +
+      '.end__ref a{color:#3FA08E;text-decoration:none;border-bottom:1px solid #3A3F45}' +
+      '.end__ref a:hover{border-bottom-color:#3FA08E}';
     var st = document.createElement('style');
     st.id = 'footer-css';
     st.textContent = css;
@@ -34,6 +37,7 @@
         '<a href="mailto:asuschits@gmail.com">asuschits@gmail.com</a><br>' +
         '<a href="https://planfix.ru/ourpartners/?partner=130">Профиль на planfix.ru</a>' +
       '</div>' +
+      '<p class="end__ref">Ещё не пользуетесь ПланФиксом? Зарегистрируйтесь по <a href="https://planfix.ru/?rid=64aba90f2dcf" target="_blank" rel="noopener">моей реферальной ссылке</a> — и получите бонус на старте.</p>' +
     '</div></footer>';
 
   // No form on this page → make the button a link that opens the form on the main page
