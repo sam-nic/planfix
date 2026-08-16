@@ -304,6 +304,22 @@ a{color:inherit}
 }
 .about .pf__ref a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(14,107,94,.35)}
 .about .pf__ref a:hover{border-bottom-color:var(--accent)}
+.ai-cases{display:grid;gap:12px;margin-top:16px}
+.ai-case{
+  background:#fff;
+  border-radius:6px;
+  padding:16px 18px;
+}
+.ai-case h4{
+  color:var(--accent);
+  font-weight:600;
+  font-size:15.5px;
+  margin-bottom:6px;
+}
+.ai-case p{color:var(--ink);font-size:15.5px;line-height:1.5}
+@media (min-width:640px){
+  .ai-cases{grid-template-columns:1fr 1fr}
+}
 
 /* ---------- pains ---------- */
 .pains-wrap{position:relative;display:flex;align-items:center;gap:8px}
@@ -874,6 +890,20 @@ a{color:inherit}
 </a>
 </div>
 <p class="pf__ref">Ещё не пользуетесь ПланФиксом?<br>Зарегистрируйтесь по <a href="https://planfix.ru/?rid=64aba90f2dcf" target="_blank" rel="noopener">моей реферальной ссылке</a> — и получите персональный бонус.</p>
+</div>
+<div class="pf">
+<h3 class="pf__title">А как же нейронки?</h3>
+<p>ПланФикс — это основа: он хранит данные, ведёт процессы, остаётся источником правды. Нейросети я использую не вместо него, а поверх — чтобы закрыть то, что штатными средствами не решить.</p>
+<div class="ai-cases">
+<div class="ai-case">
+<h4>Мета-анализ сделок</h4>
+<p>Менеджеры общаются с клиентами, ведут переписку, оставляют заметки. ИИ в фоновом режиме разбирает эту сырую информацию и превращает в структурированный отчёт, по которому видно качество сделки.</p>
+</div>
+<div class="ai-case">
+<h4>Микроприложения</h4>
+<p>У ПланФикса, как у любой системы, есть предел штатных возможностей. Там, где их не хватает — собираю микроприложения: дашборды, нестандартные отчёты, формы для массовых операций.</p>
+</div>
+</div>
 </div>
 </div>
 </section>
